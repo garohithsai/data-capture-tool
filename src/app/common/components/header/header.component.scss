@@ -1,0 +1,17 @@
+.header-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 16px;
+}
+.header-wrapper {
+    color: #f0f6ff;
+    .brand-title {
+        font-size: 20px;
+    }
+    flex-shrink: 0;
+    background-color: #296cbb;
+    .flex-space {
+        flex-grow: 1;
+    }
+}
